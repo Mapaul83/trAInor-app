@@ -62,7 +62,10 @@
 						</p>
 						
 						<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-							<button class="btn-primary">
+							<button 
+								on:click={() => goto('/workout/builder')}
+								class="btn-primary"
+							>
 								Start Workout
 							</button>
 							<button class="btn-secondary">
